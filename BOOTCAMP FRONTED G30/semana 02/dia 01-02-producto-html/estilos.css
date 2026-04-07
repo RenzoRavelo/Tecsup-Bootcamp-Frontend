@@ -72,7 +72,7 @@ overflow: hidden; /* cuando se desborda las cajas, lo contiene*/
 
 .content div{
     display: flex;
-    align-items: center; /*alinea la letra*/
+    align-items: center; /*alinea los elementos*/
     gap: 21px; /* espacio entre columnas*/
 }
 
