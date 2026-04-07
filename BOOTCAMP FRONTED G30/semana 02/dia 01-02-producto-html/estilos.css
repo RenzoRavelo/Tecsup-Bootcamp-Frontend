@@ -5,20 +5,68 @@ font-family: "Fraunces", serif;
 
 
 body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
     background-color: hsl(30, 38%, 92%);
+    height: 100vh; /*al 100 del espacio*/
+    display: flex; /*flexbox*/
+    justify-content: center; /*alineamineto horizontal*/
+    align-items: center; /*alineamiento vertical*/
     }
 
 main{
-    border-radius: 8rem;
-}
-
-.photo{
-    width: 10px;
-}
-
-.content{
-        background-color: white;
-        padding: 20px;
+border: 1px solid rgb(255, 255, 0);
+width: 650px;
+display: flex; /* alineacion en columnas*/
+min-height: 480px;
 
     }
 
+
+.photo{
+    width: 350px;
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: cover;
+
+
+}
+
+.content{
+        width: 300px;
+        background-color: white;
+        padding: 28px;/*14px x 2 =28px*/
+        display: flex;
+        flex-direction: column; /*espaciado en filas*/
+        gap: 21px; /*14 + 7 =21 */
+    }
+
+.content h2{
+    border: 1px solid red;
+    margin: 0;
+    text-transform: uppercase; /* conbierte en mayuscula*/
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 7px;
+}
+
+.content h1{
+    margin: 0;
+    font-family: "Fraunces", serif;
+    color: hsl(212, 21%, 14%);
+    font-weight: 700; /* grosor de letra*/
+    font-size: 38px;
+
+}
+
+.content p{
+    border: 1px solid rgb(0, 255, 17);
+    margin: 0;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500; /* grosor de letra*/
+    line-height: 1.5; /* espaciado entre linea de parrafo*/
+}
+
+div{
+    font-family: "Fraunces", serif;
+}
